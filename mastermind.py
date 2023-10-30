@@ -2,20 +2,6 @@ import random
 from prettytable import PrettyTable
 import os
 
-#Aqui lo que hago es que me haga una ilustración de tabla para decoración, no es de juego
-tablailustracion = """
-|   |   |   |   | 
------------------
-|   |   |   |   |
------------------
-|   |   |   |   |
------------------
-|   |   |   |   |
------------------
-|   |   |   |   |
------------------
-|   |   |   |   |
-"""
 introduccion = """
 
   ____  _                           _     _                 __  __           _                      _           _ _  
@@ -225,7 +211,6 @@ def multiplayergame(code):
 
 def bienvenida():
   print(introduccion)
-  print(tablailustracion)
   print("Hola" + " " + user + ",", "por favor, indica que quiere hacer:")
 #Esta funcion genera codigo con los colores en random
 def generate_random_colors():
